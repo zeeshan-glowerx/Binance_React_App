@@ -1,12 +1,7 @@
 import Login from "./page/login";
 import Dashboard from "./page/dashboard";
 import Report from "./page/report";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-} from "react-router-dom";
+import {BrowserRouter as Router,Route,Switch,Redirect} from "react-router-dom";
 import "./App.css";
 import {
   Chart as ChartJS,
@@ -18,6 +13,7 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
+import React from "react"
 
 ChartJS.register(
   CategoryScale,
@@ -28,7 +24,6 @@ ChartJS.register(
   Tooltip,
   Legend,
 );
-
 const App = () => {
   return (
     <Router>
