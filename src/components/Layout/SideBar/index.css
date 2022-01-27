@@ -1,15 +1,17 @@
 .side-bar .MuiDrawer-paper {
   height: 100%;
-  width: 90px;
+  width: 45px;
   padding: 1rem 0.7rem;
   background-color: #1A374D;
 }
 
-@media only screen and (min-width: 725px) {
+@media only screen and (min-width: 925px) {
    .side-bar .MuiDrawer-paper {
-    width: 220px;
+    width: 200px;
   }
+ 
 }
+
 
 
 
@@ -36,7 +38,7 @@
 }
 
 .side-bar__list-item__title {
-  font-size: 14px;
+  font-size: 15px;
   margin-left: 1.2rem;
 }
 

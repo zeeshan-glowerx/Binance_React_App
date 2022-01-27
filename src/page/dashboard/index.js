@@ -44,7 +44,7 @@ const Dashboard = () => {
     <Layout activeItem="Dashboard">
       <Grid container  spacing={1} justifyContent={"center"} margin={"auto"}  >
         {data.slice(0, 20).map((item, index) => (
-          <Grid item xs={6} md={4}>
+          <Grid item xs={12} sm={6} md={4} key={index}>
             <Card sx={{ minWidth: 245,margin:"0 auto",color:'white',backgroundColor:handleOnColor(Math.floor(Math.random() * 10)%4) }}>
             
               <CardContent>

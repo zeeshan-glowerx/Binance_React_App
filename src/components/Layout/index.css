@@ -3,10 +3,10 @@
   justify-content: flex-start;
   align-items: flex-start;
   width: calc(100% - 90px);
-  margin-left: 90px;
+  margin-left: 80px;
 }
 
-@media only screen and (min-width: 725px) {
+@media only screen and (min-width: 935px) {
   .layout {
     width: calc(100% - 220px);;
     margin-left: 220px;
